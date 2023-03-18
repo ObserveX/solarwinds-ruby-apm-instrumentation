@@ -6,7 +6,7 @@ docker pull redmine
 ```
 Create a Dockerfile to Extend the base image to include SolarWinds Ruby APM Instrumentation steps
 ```
-s
+vim Dockerfile
 ```
 Build a New Image with Dockerfile
 ```
@@ -39,7 +39,7 @@ docker restart bf2b5a5ecafa
 ```
 Generate traffic to see APM Data in SolarWinds. 
 
-For RUM Monitoring
+# For RUM Monitoring
 Start an interactive terminal session to go inside the container
 ```
 docker exec -it bf2b5a5ecafa bash
