@@ -1,4 +1,4 @@
-# SolarWinds Ruby APM Instrumenetation - Redmine
+# SolarWinds Ruby APM Instrumentation - Redmine
 
 Get the Redmine Docker image from https://hub.docker.com/_/redmine
 ```
